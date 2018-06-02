@@ -1,8 +1,6 @@
-[
 {
     "short_name": "toast",
     "name": "toast party",
     "display": "standalone",
     "theme_color": "rgb(245, 240, 237)"
-},
-]
+}
