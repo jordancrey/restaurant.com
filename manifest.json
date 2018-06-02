@@ -1,8 +1,8 @@
 {
-  
+
     "short_name": "toast",
     "name": "toast party",
     "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#fdfdfd",
+    "background_color": "rgb(245, 240, 237)",
+    "theme_color": "rgb(245, 240, 237)",
 }
