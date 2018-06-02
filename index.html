@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Author: jordan; Created in may 2018; Home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFC565"/>
+    <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="manifest.json">
+  <link rel="stylesheet" href="https://jordancrey.github.io/restaurant.com/manifest.json">
   <script src="jquery.js" charset="utf-8"></script>
   <script type="text/javascript" src="main.js"></script>
   <title>Document</title>
@@ -54,4 +56,17 @@
 
 </footer>
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript">
+          if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('https://jordancrey.github.io/restaurant.com/sw.js').then(function(registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+          // registration failed :(
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+      }
+    </script>
 </html>
