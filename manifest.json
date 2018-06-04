@@ -2,7 +2,6 @@
     "short_name": "toast",
     "name": "toast party",
     "display": "standalone",
-    "theme_color": "rgb(245, 240, 237)",
     "start_url": "/index.html",
   "theme_color": "#2F3BA2"
 }
