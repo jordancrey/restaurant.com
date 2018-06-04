@@ -1,4 +1,5 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var cachename = 'my-site-cache-v1';
+var dataCacheName = 'my-site-Data-v1';
 var urlsToCache = [
 
 'https://jordancrey.github.io/restaurant.com/index.html',
@@ -18,13 +19,16 @@ var urlsToCache = [
 'https://jordancrey.github.io/restaurant.com/toast.jpg',
 'https://jordancrey.github.io/restaurant.com/main.css',
 'https://jordancrey.github.io/restaurant.com/b.jpg',
+'https://jordancrey.github.io/restaurant.com/sw.js',
+'https://jordancrey.github.io/restaurant.com/siren.jpg',
+'https://jordancrey.github.io/restaurant.com/business.jpg',
 
 ];
 
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(cachename)
       .then(function(cache) {
         console.log('Opened cache');
         return cache.addAll(urlsToCache);
