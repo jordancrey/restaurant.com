@@ -8,7 +8,6 @@
     "background_color": "#2F3BA2",
     "icons" : [
        {
-
         "src": "siren.png",
         "type":"image/png",
         "sizes": "24x24"
