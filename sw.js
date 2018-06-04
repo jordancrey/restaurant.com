@@ -1,7 +1,7 @@
 var cachename = 'my-site-cache-v1';
 var dataCacheName = 'my-site-Data-v1';
 var urlsToCache = [
-
+'/'
 'https://jordancrey.github.io/restaurant.com/index.html',
 'https://jordancrey.github.io/restaurant.com/carte.html',
 'https://jordancrey.github.io/restaurant.com/a.jpg',
