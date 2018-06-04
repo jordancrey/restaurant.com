@@ -6,7 +6,7 @@
         "sizes": "24x24",
       },{
         "src": "business.png",
-        "sizes": "16x16",
+        "sizes": "16x16"
       }],
     "display": "standalone",
     "start_url": "/index.html",
