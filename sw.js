@@ -19,7 +19,6 @@ var urlsToCache = [
 'https://jordancrey.github.io/restaurant.com/toast.jpg',
 'https://jordancrey.github.io/restaurant.com/main.css',
 'https://jordancrey.github.io/restaurant.com/b.jpg',
-'https://jordancrey.github.io/restaurant.com/sw.js',
 'https://jordancrey.github.io/restaurant.com/siren.jpg',
 'https://jordancrey.github.io/restaurant.com/business.jpg',
 
